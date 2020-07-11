@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 3px orange solid;
+  background-position: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(187deg, #7da046 30%, #a9ac80 60%); */
+  /* background: linear-gradient( 187deg, rgba(179, 179, 92, 0.808) 30%, rgba(105, 105, 150, 0.158) 60%); */
+  /* background-repeat: no-repeat; */
+}

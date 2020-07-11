@@ -1,0 +1,31 @@
+<!-- <header>
+    <div class="main">
+        <div *ngIf="uimage" class="logo">
+            <a [routerLink]="['/login']"><img src="{{uimage}}" alt="img"></a>
+        </div>
+        <ul>
+
+            <li *ngIf="!uimage">
+                <a [routerLink]="['/login']">LOGIN</a>
+            </li>
+            <li *ngIf="!uimage" class="reg_ls">
+                <a [routerLink]="['/register']">SIGNUP</a>
+            </li>
+            <li *ngIf="uimage" class="reg_ls">
+                <a [routerLink]="['/login']">Logout</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<!-- <app-login (onRegister)="courseReg($event)"></app-login> -->
+<router-outlet (activate)="onActivate($event)"></router-outlet>
+
+<div *ngIf="uimage">{{uimage}}</div>
+
+
+-->
+
+
+
+<app-file-upload></app-file-upload>

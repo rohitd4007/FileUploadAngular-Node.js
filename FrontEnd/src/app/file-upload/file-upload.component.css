@@ -1,0 +1,52 @@
+.back-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  text-align: center;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(139, 201, 180);
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+label {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.upload {
+  /* background-color: brown; */
+  color: brown;
+}
+
+.btn-div {
+  margin-top: 30px;
+  height: 30px;
+}
+
+.btn {
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(34, 134, 79);
+  border-radius: 3px;
+  border: none;
+}
+
+.img-div {
+  margin: 10px;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}

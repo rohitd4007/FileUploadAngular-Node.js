@@ -1,0 +1,41 @@
+<div class="back-div">
+    <div class="form-control">
+        <div *ngIf="!displayimage">
+            <div style="margin-top: 10px;">
+                <label style="color: rgb(177, 74, 48);">This is Demo Of File
+                    Upload
+                    with Angular And Node/express
+                    using multer</label>
+            </div>
+            <div class="content">
+                <div class="upload">
+
+                    <div class="file-div">
+                        <div class="form-group">
+                            <label>Select Your File: </label>&nbsp;&nbsp;
+                            <input type="file" class="custom-file-input" #file id="inputGroupFile01" (change)="preview(file.files)" aria-describedby="inputGroupFileAddon01">
+                        </div>
+                        <div *ngIf="imgURL" class="img-div">
+                            <img src="{{imgURL}}" alt="img-preview">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="btn-div">
+                    <button class="btn" (click)="uploadFile()" [disabled]="buttonshow">Upload</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-images" *ngIf="showimages" style="margin-top:50px ;">
+            <span>Image Upload Successfully</span>
+            <a (click)="display()">Display All Images </a>
+        </div>
+
+        <div *ngIf="displayimage">
+            <app-show-images></app-show-images>
+        </div>
+
+    </div>
+
+
+</div>
